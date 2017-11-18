@@ -502,14 +502,37 @@ a:hover, a:active {
 	outline: 0;
 }
 
+/* Header */
+.site-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #ffffff;
+	background-color: #252525;
+}
+
+.site-header a {
+	color: #ffffff;
+}
+
+.site-header a:hover {
+	opacity: .9;
+	transition: opacity .2s ease-in;
+}
+
+.site-header .site-description {
+	display: none;
+}
+
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
 	clear: both;
 	display: block;
+	margin: 0 20px;
 	float: left;
-	width: 100%;
+	flex: 1;
 }
 
 .main-navigation ul {
@@ -548,8 +571,22 @@ a:hover, a:active {
 }
 
 .main-navigation li {
+	margin-left: 10px;
 	float: left;
 	position: relative;
+}
+
+.main-navigation ul > li:last-child {
+	padding: 10px 20px;
+	background-color: #00b6d4;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: .8em;
+}
+
+.main-navigation ul > li:last-child:hover {
+	opacity: .9;
+	transition: opacity .2s ease-in;
 }
 
 .main-navigation a {
@@ -568,7 +605,9 @@ a:hover, a:active {
 		display: none;
 	}
 	.main-navigation ul {
-		display: block;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
 	}
 }
 
@@ -850,4 +889,10 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+/* Buttons */
+.blue-button {
+	background-color: #21759b;
+	font-weight: bold;
 }
