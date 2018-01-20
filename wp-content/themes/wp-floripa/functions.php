@@ -130,6 +130,14 @@ function wp_floripa_scripts() {
 add_action( 'wp_enqueue_scripts', 'wp_floripa_scripts' );
 
 /**
+ * Enqueue theme dependencies
+ */
+// function wp_floripa_dependencies() {
+// 	wp_enqueue_style( 'wp-floripa-style', get_template_directory_uri() );
+// }
+// add_action( 'wp_enqueue_scripts', 'wp_floripa_dependencies' );
+
+/**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
