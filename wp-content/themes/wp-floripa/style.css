@@ -40,6 +40,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Media
 	## Captions
 	## Galleries
+# Forms and Buttons
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Normalize
@@ -900,4 +901,18 @@ object {
 /* Fullwidth Background */
 .fullwidth-background {
 	
+}
+
+/* Forms and Buttons */
+.btn.btn-primary {
+	padding: 10px 20px;
+	background-color: #00b6d4;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: .8em;
+}
+
+.btn.btn-primary:hover {
+	opacity: .9;
+	transition: opacity .2s ease-in;
 }
