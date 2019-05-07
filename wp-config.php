@@ -26,7 +26,7 @@ define('DB_NAME', 'meetup-floripa');
 define('DB_USER', 'meetup-floripa');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Xz3}<!,[2@RN#6VH');
+define('DB_PASSWORD', 'hohoparabensagoraehsohackear');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
